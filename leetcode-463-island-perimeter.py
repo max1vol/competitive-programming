@@ -47,4 +47,5 @@ def islandPerimeter(grid: list[list[int]]) -> int:
         level = next_level
     return p
 
+
 print(islandPerimeter(grid=[[1,1],[1,1]]))
